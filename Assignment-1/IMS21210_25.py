@@ -19,5 +19,5 @@ def exact_integration(x):
 a = 0
 b = 1
 print(
-    f'Exact integration of given function in interval [{a}, {b}]: {round(exact_integration(b) - exact_integration(a), 4)}')
-print(f'Integration of given function in interval [{a}, {b}]: {round(integrate(func, a, b), 4)}')
+    f"Exact integration of given function in interval [{a}, {b}]: {round(exact_integration(b) - exact_integration(a), 4)}")
+print(f"Integration of given function in interval [{a}, {b}]: {round(integrate(func, a, b), 4)}")
