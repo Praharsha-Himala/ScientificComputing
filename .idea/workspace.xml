@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="bisection method">
-      <change afterPath="$PROJECT_DIR$/2.Newton_raphson_method_root_finding.py" afterDir="false" />
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="newton raphson method is added.">
+      <change afterPath="$PROJECT_DIR$/Assignment-1/IMS21210_25.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.Bisection_method_for_root_finding.executor": "Run",
-    "Python.2.Newton_raphson_method_root_finding.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.Bisection_method_for_root_finding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Newton_raphson_method_root_finding.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,11 +66,28 @@
       <option name="project" value="LOCAL" />
       <updated>1706546787274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="newton raphson method is added.">
+      <option name="closed" value="true" />
+      <created>1706547747205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706547747205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="newton raphson method is added.">
+      <option name="closed" value="true" />
+      <created>1706547772411</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706547772411</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bisection method" />
-    <option name="LAST_COMMIT_MESSAGE" value="bisection method" />
+    <MESSAGE value="newton raphson method is added." />
+    <option name="LAST_COMMIT_MESSAGE" value="newton raphson method is added." />
   </component>
 </project>
