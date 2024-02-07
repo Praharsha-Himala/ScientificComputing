@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="newton raphson method is added.">
-      <change afterPath="$PROJECT_DIR$/Assignment-1/IMS21210_25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Assignment-1, Question 25. print statement modified.">
+      <change afterPath="$PROJECT_DIR$/Assignment-1/IMS21210_24.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +81,30 @@
       <option name="project" value="LOCAL" />
       <updated>1706547772411</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Assignment-1, Question 21">
+      <option name="closed" value="true" />
+      <created>1707305980586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707305980586</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Assignment-1, Question 25. print statement modified.">
+      <option name="closed" value="true" />
+      <created>1707306058758</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707306058758</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bisection method" />
     <MESSAGE value="newton raphson method is added." />
-    <option name="LAST_COMMIT_MESSAGE" value="newton raphson method is added." />
+    <MESSAGE value="Assignment-1, Question 21" />
+    <MESSAGE value="Assignment-1, Question 25. print statement modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment-1, Question 25. print statement modified." />
   </component>
 </project>
