@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Assignment-1, question 06">
-      <change afterPath="$PROJECT_DIR$/Assignment-1/IMS21210_05.py" afterDir="false" />
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Assignment-1, question 01">
+      <change afterPath="$PROJECT_DIR$/Assignment-2/IMS21210_01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,13 +249,50 @@
       <option name="project" value="LOCAL" />
       <updated>1707495421634</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Assignment-1, question 05">
+      <option name="closed" value="true" />
+      <created>1707495504638</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495504638</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Assignment-1, question 04">
+      <option name="closed" value="true" />
+      <created>1707495556887</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495556887</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Assignment-1, question 03">
+      <option name="closed" value="true" />
+      <created>1707495606611</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495606611</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Assignment-1, question 02">
+      <option name="closed" value="true" />
+      <created>1707495651721</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495651721</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Assignment-1, question 01">
+      <option name="closed" value="true" />
+      <created>1707495704619</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495704620</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bisection method" />
-    <MESSAGE value="newton raphson method is added." />
-    <MESSAGE value="Assignment-1, Question 21" />
     <MESSAGE value="Assignment-1, Question 25. print statement modified." />
     <MESSAGE value="Assignment-1, question 24" />
     <MESSAGE value="Assignment-1, question 23" />
@@ -276,6 +313,11 @@
     <MESSAGE value="Assignment-1, question 08" />
     <MESSAGE value="Assignment-1, question 07" />
     <MESSAGE value="Assignment-1, question 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment-1, question 06" />
+    <MESSAGE value="Assignment-1, question 05" />
+    <MESSAGE value="Assignment-1, question 04" />
+    <MESSAGE value="Assignment-1, question 03" />
+    <MESSAGE value="Assignment-1, question 02" />
+    <MESSAGE value="Assignment-1, question 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment-1, question 01" />
   </component>
 </project>
