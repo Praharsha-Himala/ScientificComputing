@@ -1,6 +1,6 @@
 coords = {'x': 0, 'y': 0}
 
-input_commands = eval(input('Enter commands in dictionary: '))
+input_commands = {'up':5, 'down':3, 'left':3, 'right':2}
 
 for command in input_commands:
     if command == 'up':
