@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Assignment-2, question 02">
-      <change afterPath="$PROJECT_DIR$/Jacobi_iterative_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bisection.py" afterDir="false" />
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Jacobi iterative method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.Bisection_method_for_root_finding.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.Bisection_method_for_root_finding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jacobi_iterative_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jacobi_iterative_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1707495970421</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Jacobi iterative method.">
+      <option name="closed" value="true" />
+      <created>1707832511299</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707832511299</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 23" />
     <MESSAGE value="Assignment-1, question 21" />
     <MESSAGE value="Assignment-1, question 22" />
     <MESSAGE value="Assignment-1, question 20" />
@@ -339,6 +344,7 @@
     <MESSAGE value="Assignment-1, question 01" />
     <MESSAGE value="Assignment-2, question 01" />
     <MESSAGE value="Assignment-2, question 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment-2, question 02" />
+    <MESSAGE value="Jacobi iterative method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Jacobi iterative method." />
   </component>
 </project>
