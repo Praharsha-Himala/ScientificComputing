@@ -29,4 +29,4 @@ A = np.array([[10, -1, 2, 0.],
 # constants
 b = np.array([6, 25, -11, 15])
 
-jacobi_iterative(A, b, max_iter=1000)
+jacobi_iterative(A, b, max_iter=1000, tol=0.001)
