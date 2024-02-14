@@ -17,7 +17,7 @@ def jacobi_iterative(A_matrix, b_matrix, max_iter: int = 100, tol: float = 0.000
             print(f"The solution at {iteration} iteration\nx: {x}")
             raise Warning('The procedure is successful')
     # maximum iterations reached and returns solution as x matrix
-    return print(f"Maximum iterations reached!\n The solution at {iteration} iteration\nx: {x}")
+    return print(f"Maximum iterations reached!\nThe solution at {iteration} iteration\nx: {x}")
 
 
 # matrix of system of linear equations
