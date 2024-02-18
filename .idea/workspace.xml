@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="added warning for successful procedure.">
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="tolerance value checked.">
+      <change afterPath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jacobi_iterative_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jacobi_iterative_method.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.Bisection_method_for_root_finding.executor": "Run",
-    "Python.2.Newton_raphson_method_root_finding.executor": "Run",
-    "Python.bisection.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindowPython Console.ShowToolbar": "false",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.Bisection_method_for_root_finding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.Newton_raphson_method_root_finding.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bisection.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindowPython Console.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -324,13 +324,34 @@
       <option name="project" value="LOCAL" />
       <updated>1707874694794</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="appropriate comments are added.">
+      <option name="closed" value="true" />
+      <created>1707885948478</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707885948478</updated>
+    </task>
+    <task id="LOCAL-00035" summary="formatted print statements.">
+      <option name="closed" value="true" />
+      <created>1707886132366</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707886132366</updated>
+    </task>
+    <task id="LOCAL-00036" summary="tolerance value checked.">
+      <option name="closed" value="true" />
+      <created>1707886331545</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707886331545</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 22" />
-    <MESSAGE value="Assignment-1, question 20" />
-    <MESSAGE value="Assignment-1, question 19" />
     <MESSAGE value="Assignment-1, question 18" />
     <MESSAGE value="Assignment-1, question 17" />
     <MESSAGE value="Assignment-1, question 16" />
@@ -353,6 +374,9 @@
     <MESSAGE value="Assignment-2, question 02" />
     <MESSAGE value="Jacobi iterative method." />
     <MESSAGE value="added warning for successful procedure." />
-    <option name="LAST_COMMIT_MESSAGE" value="added warning for successful procedure." />
+    <MESSAGE value="appropriate comments are added." />
+    <MESSAGE value="formatted print statements." />
+    <MESSAGE value="tolerance value checked." />
+    <option name="LAST_COMMIT_MESSAGE" value="tolerance value checked." />
   </component>
 </project>
