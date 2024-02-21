@@ -3,15 +3,17 @@ import numpy as np
 
 # Defining gauss elimination function
 def Gauss_elimination(A_matrix, b_matrix):
-    n = len(b_matrix)  # taking n as size of b_matrix
+    n = len(b_matrix)  # taking n as size of b_matrix; for example say n = 4
     x = np.zeros(n, float)  # creating a solution matrix which will be updated
     # 1. Elimination
-    for k in range(0, n - 1):  # k loop from 0, ..., n-2 for fixed rows and columns
-        for i in range(k + 1, n):  # i loop from k+2, ..., n-1 to eliminate except the first row
+    for k in range(0, n - 1):  # k loop from 0, ..., n-2 for fixed rows and columns; the k values will be 0, 1, 2.
+        for i in range(k + 1, n):  # i loop from k+1, ..., n-1 to process elimination for rows except the first row;
+            # i values will be 1, 2, 3.
             if A_matrix[i, k] == 0:  # checking if the first element of the row is zero
                 pass  # then move to next row
             factor = A_matrix[k, k] / A_matrix[i, k]  # calculating scaling factor
-            for j in range(k, n):  # j loop from k, ..., n-1 to eliminate/make an upper triangular matrix
+            for j in range(k, n):  # j loop from k, ..., n-1 to eliminate/make an upper triangular matrix; j values
+                # will be 0, 1, 2.
                 A_matrix[i, j] = A_matrix[k, j] - A_matrix[i, j] * factor  # Elimination
             b_matrix[i] = b_matrix[k] - b_matrix[i] * factor  # changing b_matrix along with elimination
 
@@ -26,6 +28,7 @@ def Gauss_elimination(A_matrix, b_matrix):
 
     return print(f"Procedure successful!\nSolution for the given A:\n{A_matrix}\n\nb: {b_matrix}\n\nx: {x}")
     # printing solution of the equation
+
 
 #########################################################################################################
 A = np.array([[3, -2, 5, 0],
