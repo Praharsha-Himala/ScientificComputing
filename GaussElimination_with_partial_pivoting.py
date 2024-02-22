@@ -48,3 +48,4 @@ A = np.array([[0, 7, -1, 3, 1],
 b = np.array([5, 7, 2, 3, 4], float)
 
 GaussElimination_partial_pivoting(A, b)
+# print(np.linalg.solve(A, b))

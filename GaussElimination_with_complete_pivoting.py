@@ -37,4 +37,4 @@ A = np.array([[0, 7, -1, 3, 1],
 b = np.array([5, 7, 2, 3, 4], float)
 
 GaussElimination_complete_pivoting(A, b)
-# np.linalg.solve(A, b) for checking
+# print(np.linalg.solve(A, b)) # for checking
