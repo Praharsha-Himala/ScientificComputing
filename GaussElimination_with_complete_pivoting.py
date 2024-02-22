@@ -10,7 +10,7 @@ def GaussElimination_complete_pivoting(A_matrix, b_matrix):
             A_matrix[[k, max_row_index + 1]] = A_matrix[[max_row_index + 1, k]]
             b_matrix[[k, max_row_index + 1]] = b_matrix[[max_row_index + 1, k]]
             A_matrix[:, [k, max_col_index]] = A_matrix[:, [max_col_index, k]]
-    for k in range(0, n-1):
+    for k in range(0, n - 1):
         for i in range(k + 1, n):
             if A_matrix[i, k] == 0:
                 pass
@@ -37,3 +37,4 @@ A = np.array([[0, 7, -1, 3, 1],
 b = np.array([5, 7, 2, 3, 4], float)
 
 GaussElimination_complete_pivoting(A, b)
+# np.linalg.solve(A, b) for checking

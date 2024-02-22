@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="if condition is updated with comments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GaussElimination_with_complete_pivoting.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussElimination_with_complete_pivoting.py" afterDir="false" />
-    </list>
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Gauss elimination with complete pivoting is uploaded." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -380,11 +377,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708594337830</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Gauss elimination with complete pivoting is uploaded.">
+      <option name="closed" value="true" />
+      <created>1708596202057</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1708596202061</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 14" />
     <MESSAGE value="Assignment-1, question 13" />
     <MESSAGE value="Assignment-1, question 12" />
     <MESSAGE value="Assignment-1, question 11" />
@@ -409,6 +413,7 @@
     <MESSAGE value="loops are explained with comments." />
     <MESSAGE value="Gauss elimination with partial pivoting is uploaded." />
     <MESSAGE value="if condition is updated with comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="if condition is updated with comments" />
+    <MESSAGE value="Gauss elimination with complete pivoting is uploaded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gauss elimination with complete pivoting is uploaded." />
   </component>
 </project>
