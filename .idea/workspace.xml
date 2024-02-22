@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="loops are explained with comments.">
-      <change afterPath="$PROJECT_DIR$/GaussElimination_with_partial_pivoting.py" afterDir="false" />
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Gauss elimination with partial pivoting is uploaded.">
+      <change afterPath="$PROJECT_DIR$/GaussElimination_with_complete_pivoting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussElimination_with_partial_pivoting.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussElimination_with_partial_pivoting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -364,11 +365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708511786882</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Gauss elimination with partial pivoting is uploaded.">
+      <option name="closed" value="true" />
+      <created>1708520129086</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1708520129086</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 16" />
     <MESSAGE value="Assignment-1, question 15" />
     <MESSAGE value="Assignment-1, question 14" />
     <MESSAGE value="Assignment-1, question 13" />
@@ -393,6 +401,7 @@
     <MESSAGE value="tolerance value checked." />
     <MESSAGE value="Gauss elimination with back substitution." />
     <MESSAGE value="loops are explained with comments." />
-    <option name="LAST_COMMIT_MESSAGE" value="loops are explained with comments." />
+    <MESSAGE value="Gauss elimination with partial pivoting is uploaded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Gauss elimination with partial pivoting is uploaded." />
   </component>
 </project>

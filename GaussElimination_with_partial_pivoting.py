@@ -9,7 +9,7 @@ def GaussElimination_partial_pivoting(A_matrix, b_matrix):
     n = len(b_matrix)  # size of the matrix
     x = np.zeros(n)  # solution variable for system of linear variables
     for k in range(0, n - 1):  # initialization of k loop with values 0, ..., n-2
-        if np.fabs(A_matrix[k, k]) < 1.0e-10:  # if first elements of the rows are very, very small
+        if np.fabs(A_matrix[k, k]) < 1.0e-10:  # if pivot elements of the rows are very, very small
             max_index = k  # defining maximum element as the first element if it's less than 1.0e-12
             for i in range(k + 1, n):  # initialization of i loop for checking which first element in the matrix is
                 # larger so that we can swap it with the row having zero or less as first element
