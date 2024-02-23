@@ -11,11 +11,11 @@ def Gauss_elimination(A_matrix, b_matrix):
             # i values will be 1, 2, 3.
             if A_matrix[i, k] == 0:  # checking if the first element of the row is zero
                 pass  # then move to next row
-            factor = A_matrix[k, k] / A_matrix[i, k]  # calculating scaling factor
+            factor = A_matrix[i, k] / A_matrix[k, k]  # calculating scaling factor
             for j in range(k, n):  # j loop from k, ..., n-1 to eliminate/make an upper triangular matrix; j values
                 # will be 0, 1, 2.
-                A_matrix[i, j] = A_matrix[k, j] - A_matrix[i, j] * factor  # Elimination
-            b_matrix[i] = b_matrix[k] - b_matrix[i] * factor  # changing b_matrix along with elimination
+                A_matrix[i, j] = A_matrix[i, j] - A_matrix[k, j] * factor  # Elimination
+            b_matrix[i] = b_matrix[i] - b_matrix[k] * factor  # changing b_matrix along with elimination
 
     # 2. Back substitution
     x[n - 1] = b_matrix[n - 1] / A_matrix[n - 1, n - 1]  # getting the value of the last row of A_matrix

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="cross checked.">
-      <change afterPath="$PROJECT_DIR$/GaussElimination_LU_factorization.py" afterDir="false" />
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="LU factorization uploaded.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussElimination_LU_factorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussElimination_LU_factorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -412,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708599705152</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="LU factorization uploaded.">
+      <option name="closed" value="true" />
+      <created>1708699818424</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1708699818425</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 11" />
     <MESSAGE value="Assignment-1, question 10" />
     <MESSAGE value="Assignment-1, question 09" />
     <MESSAGE value="Assignment-1, question 08" />
@@ -441,6 +449,7 @@
     <MESSAGE value="Gauss elimination with complete pivoting is uploaded." />
     <MESSAGE value="the solution is cross checked with numpy linalg solve function." />
     <MESSAGE value="cross checked." />
-    <option name="LAST_COMMIT_MESSAGE" value="cross checked." />
+    <MESSAGE value="LU factorization uploaded." />
+    <option name="LAST_COMMIT_MESSAGE" value="LU factorization uploaded." />
   </component>
 </project>
