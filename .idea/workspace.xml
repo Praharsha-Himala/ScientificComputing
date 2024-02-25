@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="fixed iterative method.">
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="bisection method updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.Fixed_point_iteration_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.Fixed_point_iteration_method.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -436,12 +436,26 @@
       <option name="project" value="LOCAL" />
       <updated>1708843126698</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="fixed iterative method updated.">
+      <option name="closed" value="true" />
+      <created>1708849502094</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1708849502094</updated>
+    </task>
+    <task id="LOCAL-00049" summary="bisection method updated.">
+      <option name="closed" value="true" />
+      <created>1708851059059</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1708851059059</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 08" />
-    <MESSAGE value="Assignment-1, question 07" />
     <MESSAGE value="Assignment-1, question 06" />
     <MESSAGE value="Assignment-1, question 05" />
     <MESSAGE value="Assignment-1, question 04" />
@@ -465,6 +479,8 @@
     <MESSAGE value="LU factorization uploaded." />
     <MESSAGE value="Notations are changed to easy understanding according to reference." />
     <MESSAGE value="fixed iterative method." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed iterative method." />
+    <MESSAGE value="fixed iterative method updated." />
+    <MESSAGE value="bisection method updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="bisection method updated." />
   </component>
 </project>
