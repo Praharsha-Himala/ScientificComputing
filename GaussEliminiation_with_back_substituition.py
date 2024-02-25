@@ -7,14 +7,12 @@ def Gauss_elimination(A_matrix, b_matrix):
     x = np.zeros(n, float)  # creating a solution matrix which will be updated
     # 1. Elimination
     for k in range(0, n - 1):  # k loop from 0, ..., n-2 for fixed rows and columns; the k values will be 0, 1, 2.
-        if A_matrix[k, k] == 0:
-            for i in range(k + 1, n):  # i loop from k+1, ..., n-1 to process elimination for rows except the first row;
-                # i values will be 1, 2, 3.
+        for i in range(k + 1, n):  # i loop from k+1, ..., n-1 to process elimination for rows except the first row;
+            # i values will be 1, 2, 3.
+            if A_matrix[k, k] == 0:
                 if A_matrix[i, k] != 0:
                     A_matrix[[k, i]] = A_matrix[[i, k]]  # swapping rows with non zero row element
                     b_matrix[[k, i]] = b_matrix[[i, k]]
-        for i in range(k + 1, n):  # i loop from k+1, ..., n-1 to process elimination for rows except the first row;
-            # i values will be 1, 2, 3.
             if A_matrix[i, k] == 0:  # checking if the first element of the row is zero
                 pass  # then move to next row
             factor = A_matrix[i, k] / A_matrix[k, k]  # calculating scaling factor
