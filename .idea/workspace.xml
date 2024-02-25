@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="LU factorization uploaded.">
+    <list default="true" id="7a1ebba5-c61a-4019-b8bf-6a07f986528a" name="Changes" comment="Notations are changed to easy understanding according to reference.">
+      <change afterPath="$PROJECT_DIR$/3.Fixed_point_iteration_method.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Conjugate_gradient_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GaussElimination_LU_factorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussElimination_LU_factorization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" beforeDir="false" afterPath="$PROJECT_DIR$/GaussEliminiation_with_back_substituition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -421,11 +422,18 @@
       <option name="project" value="LOCAL" />
       <updated>1708699818425</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Notations are changed to easy understanding according to reference.">
+      <option name="closed" value="true" />
+      <created>1708709807725</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1708709807725</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Assignment-1, question 10" />
     <MESSAGE value="Assignment-1, question 09" />
     <MESSAGE value="Assignment-1, question 08" />
     <MESSAGE value="Assignment-1, question 07" />
@@ -450,6 +458,7 @@
     <MESSAGE value="the solution is cross checked with numpy linalg solve function." />
     <MESSAGE value="cross checked." />
     <MESSAGE value="LU factorization uploaded." />
-    <option name="LAST_COMMIT_MESSAGE" value="LU factorization uploaded." />
+    <MESSAGE value="Notations are changed to easy understanding according to reference." />
+    <option name="LAST_COMMIT_MESSAGE" value="Notations are changed to easy understanding according to reference." />
   </component>
 </project>
