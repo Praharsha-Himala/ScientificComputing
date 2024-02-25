@@ -32,7 +32,7 @@ y[0] = b[0] / L[0, 0]
 for i in range(1, n):
     sum_ax = 0
     for j in range(1, i - 2):
-        sum_ax = sum_ax + (L[i, j] * b[j])
+        sum_ax = sum_ax + (L[i, j] * y[j])
     y[i] = (b[i] - sum_ax) / L[i, i]
 print(L)
 print(y)
