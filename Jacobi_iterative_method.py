@@ -1,5 +1,6 @@
 import numpy.linalg as alg
 import numpy as np
+import scipy
 
 
 # Jacobi fixed point iterative method to solve system of linear equations
@@ -30,3 +31,34 @@ A = np.array([[10, -1, 2, 0.],
 b = np.array([6, 25, -11, 15])
 
 jacobi_iterative(A, b, max_iter=1000, tol=0.001)
+#####################################################################################
+# Gauss siedel method
+# matrix of system of linear equations
+A = np.array([[10, -1, 2, 0.],
+              [-1, 11, -1, 3],
+              [2, -1, 10, -1],
+              [0., 3, -1, 8]])
+
+# constants
+b = np.array([6, 25, -11, 15])
+
+n = len(A)
+x_guess = np.zeros(len(A))
+x = np.zeros(len(A))
+for iteration in range(1000):
+    for i in range(n):
+        sum_x = 0
+        for j in range(0, i - 1):
+            sum_x = sum_x + A[i, j] * x[j]
+        sum_xo = 0
+        for j in range(i + 1, n):
+            sum_xo = sum_xo + A[i, j] * x_guess[j]
+
+        x[i] = (-sum_x - sum_xo + b[i]) / A[i, i]
+
+    if abs(scipy.linalg.norm(x - x_guess)) < 1.0e-3:
+        print(f"The solution at {iteration} iteration\nx: {x}")
+        raise Warning('The procedure is successful')
+
+    # maximum iterations reached and returns solution as x matrix
+    print(f"Maximum iterations reached!\nThe solution at {iteration} iteration\nx: {x}")
