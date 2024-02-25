@@ -4,12 +4,16 @@ import numpy as np
 def GaussElimination_complete_pivoting(A_matrix, b_matrix):
     n = len(b_matrix)
     x = np.zeros(n)
-    for k in range(0, n - 1):
-        if 1.0e-10 > abs(A_matrix[k, 0]):
-            max_row_index, max_col_index = np.unravel_index(A_matrix[k + 1:, ].argmax(), A_matrix.shape)
-            A_matrix[[k, max_row_index + 1]] = A_matrix[[max_row_index + 1, k]]
-            b_matrix[[k, max_row_index + 1]] = b_matrix[[max_row_index + 1, k]]
-            A_matrix[:, [k, max_col_index]] = A_matrix[:, [max_col_index, k]]
+    for k in range(0, n-1):
+        max_row_index, max_col_index = np.unravel_index(np.argmax(A[k:, k:]), A[k:, k:].shape)
+        print(max_row_index, max_col_index)
+        A[[k, max_row_index + k]] = A[[max_row_index + k, k]]
+        b[[k, max_row_index + k]] = b[[max_row_index + k, k]]
+        A[:, [k, max_col_index + k]] = A[:, [max_col_index + k, k]]
+    #
+    # print(A)
+    # print(b)
+    # print(max_row_index, max_col_index)
     for k in range(0, n - 1):
         for i in range(k + 1, n):
             if A_matrix[i, k] == 0:

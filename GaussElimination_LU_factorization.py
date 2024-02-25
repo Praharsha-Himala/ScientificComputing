@@ -31,13 +31,13 @@ y = np.zeros(n)
 y[0] = b[0] / L[0, 0]
 for i in range(1, n):
     sum_ax = 0
-    for j in range(0, i - 1):
+    for j in range(1, i - 2):
         sum_ax = sum_ax + (L[i, j] * y[j])
     y[i] = (b[i] - sum_ax) / L[i, i]
 print(L)
 print(y)
 
-x[n - 1] = b[n - 1] / A[n - 1, n - 1]
+x[n - 1] = y[n - 1] / A[n - 1, n - 1]
 for i in range(n - 2, -1, -1):
     sum_xx = 0
     for j in range(i+1, n):
