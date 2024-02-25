@@ -1,34 +1,27 @@
-import numpy as np
 import sys
-import math
 
 
-def is_close(a, b):
+def isclose(a, b):
     return abs(b - a) < sys.float_info.epsilon
 
 
-def function(x):
-    fn = x ** 3 + 4 * x ** 2 - 10
-    return fn
-
-
-def bisection_method(function, a, b, tol=0.0001, max_iter=100):
-    iter = 0
-    while iter < max_iter:
-        c = (a + b) / 2
-
-        if is_close(function(c), 0.0) or abs(b - a) / 2 < tol:
-            break
+def bisection(func, a, b, max_iter=100, tol=1.0e-6):
+    global mid
+    for iteration in range(max_iter):
+        mid = (a + b) / 2
+        if isclose(func(mid), 0) or (b - a) / 2 < tol:
+            return mid
         else:
-            if function(a) * function(c) < 0:
-                b = c
+            if func(mid) * func(a) < 0:
+                b = mid
             else:
-                a = c
-            iter = iter + 1
-
-    return print(c)
+                a = mid
+    return mid
 
 
-a = 1
-b = 2
-bisection_method(function, a, b)
+def func(x):
+    return x ** 3 + 4 * x ** 2 - 10
+
+
+sol = bisection(func, 1, 2)
+print(sol)
