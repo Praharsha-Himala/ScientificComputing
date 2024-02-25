@@ -16,6 +16,7 @@ def GaussElimination_complete_pivoting(A_matrix, b_matrix):
     # print(max_row_index, max_col_index)
     for k in range(0, n - 1):
         for i in range(k + 1, n):
+            if A_matrix[]
             if A_matrix[i, k] == 0:
                 pass
             else:
